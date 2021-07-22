@@ -8,4 +8,4 @@ const enumEvt = {
     END_MINING: 'END_MINING',
 }
 
-module.exports = enumEvt;
+export default enumEvt;

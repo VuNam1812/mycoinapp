@@ -611,4 +611,4 @@ class UnspentTxOut {
   }
 }
 
-export const Blockchain = new Blockchain();
+export default new Blockchain();
