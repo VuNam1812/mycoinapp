@@ -79,11 +79,11 @@ export const Home = (props) => {
 };
 
 const socials = [
-    { icon: 'https://www.myetherwallet.com/img/facebook.b3e1260a.png', name: 'Facebook' },
-    { icon: 'https://www.myetherwallet.com/img/twitter.4021904f.jpg', name: 'Twitter' },
-    { icon: 'https://www.myetherwallet.com/img/reddit.342a12c2.svg', name: 'Reddit' },
-    { icon: 'https://www.myetherwallet.com/img/github.ea0dc6d2.png', name: 'Github' },
-    { icon: 'https://www.myetherwallet.com/img/youtube.2bd2c7d9.png', name: 'Youtube' },
-    { icon: 'https://www.myetherwallet.com/img/instagram.86f33cfc.png', name: 'Instagram' },
-    { icon: 'https://www.myetherwallet.com/img/telegram.39a27915.svg', name: 'Telegram' }
+    { icon: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/facebook.b3e1260a.png', name: 'Facebook' },
+    { icon: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/twitter.4021904f.jpg', name: 'Twitter' },
+    { icon: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/reddit.342a12c2.svg', name: 'Reddit' },
+    { icon: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/github.ea0dc6d2.png', name: 'Github' },
+    { icon: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/youtube.2bd2c7d9.png', name: 'Youtube' },
+    { icon: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/instagram.86f33cfc.png', name: 'Instagram' },
+    { icon: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/telegram.39a27915.svg', name: 'Telegram' }
 ];

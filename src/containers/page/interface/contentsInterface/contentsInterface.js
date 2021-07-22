@@ -157,14 +157,14 @@ export const ContentsInterface = (props) => {
                             <p className='text__desc'>{myWallet.publicKey}</p>
                         </div>
                         <div className='content-item__subIcon' onClick={handleClickBtnInfo}>
-                            <img src='https://www.myetherwallet.com/img/more.f9583c86.svg'></img>
+                            <img src='https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/more.f9583c86.svg'></img>
                         </div>
                     </div>
                 </div>
 
                 <div className='content-item item--border-none item--color-submain'>
                     <div className='content-item__image'>
-                        <img src='https://www.myetherwallet.com/img/wallet.66b8433e.svg'></img>
+                        <img src='https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/wallet.66b8433e.svg'></img>
                     </div>
                     <div className='content-item__main'>
    
@@ -182,7 +182,7 @@ export const ContentsInterface = (props) => {
 
                 <div className='content-item'>
                     <div className='content-item__image'>
-                        <img src='https://www.myetherwallet.com/img/eth-logo.7fe75c25.svg'></img>
+                        <img src='https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/eth-logo.7fe75c25.svg'></img>
                     </div>
                     <div className='content-item__main'>
                         <div className='text'>

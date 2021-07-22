@@ -4,32 +4,40 @@ import { Expander } from '../../components/expander/expander';
 
 export const FAQs = (props) => {
     return (
-        <>
-                <div className='FAQs row'>
-                    <div className='FAQs__header'>
-                        <div className='FAQs__title'>
-                            <p>FAQs</p>
-                            <h5>Have not found the question that you are looking for? <span>see more...</span></h5>
-                        </div>
-                        <div className='support'>
-                            <img src='https://www.myetherwallet.com/img/help-center.fc8a5621.svg' className='icon'></img>
-                            <h5 className='label'>Customer Support</h5>
-                        </div>
-                    </div>
-                    <div className='FAQs__content'>
-                        <ul>
-                            {
-                                faqsData.map((item) => {
-                                    return (
-                                        <li><Expander question={item.quesiton} answer={item.answer}></Expander></li>
-                                    )
-                                })
-                            }
-
-                        </ul>
-                    </div>
-                </div>
-        </>
+      <>
+        <div className="FAQs row">
+          <div className="FAQs__header">
+            <div className="FAQs__title">
+              <p>FAQs</p>
+              <h5>
+                Have not found the question that you are looking for?{" "}
+                <span>see more...</span>
+              </h5>
+            </div>
+            <div className="support">
+              <img
+                src="https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/help-center.fc8a5621.svg"
+                className="icon"
+              ></img>
+              <h5 className="label">Customer Support</h5>
+            </div>
+          </div>
+          <div className="FAQs__content">
+            <ul>
+              {faqsData.map((item) => {
+                return (
+                  <li>
+                    <Expander
+                      question={item.quesiton}
+                      answer={item.answer}
+                    ></Expander>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </div>
+      </>
     );
 };
 

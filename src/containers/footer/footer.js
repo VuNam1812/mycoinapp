@@ -40,7 +40,7 @@ export const Footer = (props) => {
                             <a href='#'>
                                 <div className='text' style={{ fontSize: '1rem', color: '#05c0a5',
                                  display: 'flex', marginBottom:'1rem'}}>
-                                    <img src='https://www.myetherwallet.com/img/eth.878d30dd.svg' 
+                                    <img src='https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/eth.878d30dd.svg' 
                                         style={{color: '#fd7e14', marginRight: '0.5rem'}}/>
                                         <span> Ethereum Donate</span>
                                 </div>
@@ -49,9 +49,9 @@ export const Footer = (props) => {
                         <div className='content'>
                             <a href='#'>
                                 <div className='text' style={{ fontSize: '1rem', color: '#05c0a5', display: 'flex'}}>
-                                    <img src='https://www.myetherwallet.com/img/btc.ef11a598.svg' 
+                                    <img src='https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/btc.ef11a598.svg' 
                                         style={{color: '#fd7e14', marginRight: '0.5rem'}}/>
-                                        <span> Ethereum Donate</span>
+                                        <span> Bitcoin Donate</span>
                                 </div>
                             </a>
                         </div>

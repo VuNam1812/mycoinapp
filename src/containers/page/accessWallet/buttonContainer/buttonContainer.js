@@ -138,7 +138,7 @@ export const ButtonContainer = (props) => {
                                                     <Input onChangeText={(e) => {setAccessWalletText(e.target.value)}} placeHolder='Enter password' type='password'></Input>
                                                     <div className={`basic-button ${(accessWalletText.length < 9)? 'button--disabled' : ''}`} onClick={handleAccessWallet}>Accesss Wallet</div>
                                                     <div className='support'>
-                                                        <img src='https://www.myetherwallet.com/img/help-center.fc8a5621.svg' className='support__icon'></img>
+                                                        <img src='https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/help-center.fc8a5621.svg' className='support__icon'></img>
                                                         <h5 className='support__label'>Customer Support</h5>
                                                     </div>
                                                 </div>
@@ -150,7 +150,7 @@ export const ButtonContainer = (props) => {
                                                     <div className={`basic-button ${(accessWalletText.length < 34)? 'button--disabled' : ''}`} 
                                                         onClick={handleAccessWallet}>Accesss Wallet</div>
                                                     <div className='support'>
-                                                        <img src='https://www.myetherwallet.com/img/help-center.fc8a5621.svg' className='support__icon'></img>
+                                                        <img src='https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/help-center.fc8a5621.svg' className='support__icon'></img>
                                                         <h5 className='support__label'>Customer Support</h5>
                                                     </div>
                                                 </div>
@@ -172,7 +172,7 @@ export const ButtonContainer = (props) => {
 
 
 const btnData = [
-    { srcImg: 'https://www.myetherwallet.com/img/button-hardware.945afa77.svg', style: '', title: 'Hardware', desc: ' Ledger wallet, FINNEY, Trezor, BitBox, Secalot, KeepKey, XWallet ', subNote: '' },
-    { srcImg: 'https://www.myetherwallet.com/img/button-web3.dc2ff19c.svg', style: '', title: 'MEW CX', desc: ' MetaMask; Dapper ', subNote: '' },
-    { srcImg: 'https://www.myetherwallet.com/img/button-software.2a233dbf.svg', style: 'btn-danger', title: 'Software', desc: ' Keystore file, Private key, Mnemonic phrase ', subNote: 'Not recommended' }
+    { srcImg: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/button-hardware.945afa77.svg', style: '', title: 'Hardware', desc: ' Ledger wallet, FINNEY, Trezor, BitBox, Secalot, KeepKey, XWallet ', subNote: '' },
+    { srcImg: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/button-web3.dc2ff19c.svg', style: '', title: 'MEW CX', desc: ' MetaMask; Dapper ', subNote: '' },
+    { srcImg: 'https://mycoinblockchain.s3.sa-east-1.amazonaws.com/img/button-software.2a233dbf.svg', style: 'btn-danger', title: 'Software', desc: ' Keystore file, Private key, Mnemonic phrase ', subNote: 'Not recommended' }
 ];

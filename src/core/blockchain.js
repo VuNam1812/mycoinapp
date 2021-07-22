@@ -611,4 +611,4 @@ class UnspentTxOut {
   }
 }
 
-export default new Blockchain();
+export default Blockchain;
